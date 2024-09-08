@@ -8,23 +8,14 @@ NeuroMotion is comprised of three key modules, including part of the OpenSim API
 ## Installation
 
 ### Requirements
-- Operating System: Linux.
-- Python 3.7.11
-- PyTorch >= 1.6
-- torchvision >= 0.8.0
-- CUDA toolkit 10.1 or newer, cuDNN 7.6.3 or newer.
+- Operating System: Linux/Windows.
+- Python 3.10.14
 
 ### Conda environment
-env.yml contains most dependencies required to use NeuroMotion. Create the new environment by:
+env.yml contains the dependencies required to use NeuroMotion. Create the new environment by:
 
 ```bash
 conda env create --file env.yml
-```
-
-Then install the core module BioMime by:
-
-```bash
-pip install git+https://github.com/shihan-ma/BioMime.git
 ```
 
 ### Pretrained models
