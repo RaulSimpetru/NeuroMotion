@@ -8,3 +8,6 @@ figs/
 res/
 ckp/*.pth
 NeuroMotion/MSKlib/models/
+/ckp/model_linear.pth
+/ckp/model_logistic.pth
+/ckp/muap_examples.pkl
