@@ -15,7 +15,7 @@ NeuroMotion is comprised of three key modules, including part of the OpenSim API
 env.yml contains the dependencies required to use NeuroMotion. Create the new environment by:
 
 ```bash
-conda env create --file env.yml
+conda env create --file env.yml -n NeuroMotion
 ```
 
 ### Pretrained models
