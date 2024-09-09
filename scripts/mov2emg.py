@@ -51,7 +51,7 @@ if __name__ == "__main__":
     parser.add_argument("--morph", action="store_true", help="morph MUAPs")
     parser.add_argument(
         "--muap_file",
-        default="./ckp/muap_examples.pkl",
+        default="./ckp/muap_example.pkl",
         type=str,
         help="initial labelled muaps",
     )
